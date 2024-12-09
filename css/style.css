@@ -24,6 +24,10 @@ header .textos {
   color: tomato;
 }
 
+section {
+  text-align: center;
+}
+
 /* estilos de main */
 main {
   text-align: center;
@@ -136,8 +140,7 @@ footer .footer-center a {
     grid-column-end: -1;
   }
   main .textos .entrega {
-    grid-column: span 2;
-    grid-row: span 2;
+    display: block;
   }
   footer .footer-izq {
     text-align: start;
