@@ -49,6 +49,7 @@ main div img:hover {
   filter: blur(10px);
 }
 main .venta {
+  display: grid;
   grid-row: span 3;
   grid-column-start: 2;
 }
@@ -135,7 +136,7 @@ footer .footer-center a {
     grid-column: span 1;
     grid-row: span 1;
   }
-  main .venta, main .img-stock {
+  main .img-stock {
     grid-column-start: 1;
     grid-column-end: -1;
   }
