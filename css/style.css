@@ -8,7 +8,7 @@
 /* estilos generales */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: aqua;
+  background-color: whitesmoke;
   font-size: 16px;
 }
 
@@ -49,7 +49,6 @@ main div img:hover {
   filter: blur(10px);
 }
 main .venta {
-  display: grid;
   grid-row: span 3;
   grid-column-start: 2;
 }
@@ -85,9 +84,12 @@ footer .footer-center a {
   main {
     grid-template-rows: 40% 40% 40%;
   }
-  main .venta, main .img-stock {
+  main .img-stock {
     grid-column-start: 1;
     grid-column-end: -1;
+  }
+  main .venta {
+    display: none;
   }
   main .img-gol, main .img-unoscr, main .gol-top {
     grid-column-start: 2;
